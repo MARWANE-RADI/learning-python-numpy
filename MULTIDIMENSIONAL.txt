@@ -1,0 +1,12 @@
+import numpy as np
+
+array_0 = np.array('A')
+array_1 = np.array(['A','B','C'])
+array_2 = np.array([['A','B','C'],['A','B','C']])
+array_3 = np.array([[['A','B','C'],['A','B','C'],['A','B','C']]])
+
+
+print(array_0.ndim)
+print(array_1.ndim)
+print(array_2.ndim)
+print(array_3.ndim)

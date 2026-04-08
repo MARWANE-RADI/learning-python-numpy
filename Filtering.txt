@@ -1,0 +1,18 @@
+
+import numpy as np
+
+ages = np.array([[20,14,57,85,10,23,54,11],
+				 [32,13,20,24,20,56,89,14]])
+
+#teenagers = ages[ages <18]
+#adults    = ages[(ages >= 23) & (ages < 55)]   # Domain ..   D = ] 23 ,55 ]
+#seniors   = ages[(ages < 23) | (ages > 55)]
+#evens     = ages[ages % 2 == 0 ]
+#odds      = ages[ages % 2 != 0 ]
+#print(odds)
+
+
+
+#adults = ages[(ages >= 23) & (ages < 55)]   # Domain ..   D = ] 23 ,55 ]
+adults  = np.where(ages >= 20 , ages,0)
+print(adults)
