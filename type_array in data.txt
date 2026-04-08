@@ -1,0 +1,21 @@
+
+import numpy as np
+
+list1  = [1,2,3,4,5,6,7,8,9]
+array1 = [1,2,3,4,5,6,7,8,9]
+
+print(id(list1[0]))
+print(id(list1[4]))
+
+print("###################################")
+
+print(id(array1[0]))
+print(id(array1[-1]))
+
+print("###################################")
+
+my_list_of_data =[1,2,"A","B",True,10.50]
+my_array_of_data =np.array([1,2,"A","B",False,10.50])
+
+print(my_list_of_data)
+print(my_array_of_data)

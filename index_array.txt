@@ -1,0 +1,25 @@
+
+import numpy as np
+
+a = np.array(10)                                       #0D
+b = np.array([80,20])                                  #1D
+c = np.array([[10,60],[90,20]])                        #2D
+d = np.array([[[70,40],[30,20]],[[50,20],[60,90]]])    #3D
+
+print(d[1,1,1])
+print(d[1,1,1])
+print(d[1,1,1])
+########################### do you know how dimensions in array this is method
+print("#"*50+">")
+
+print(a.ndim)
+print(b.ndim)
+print(c.ndim)
+print(d.ndim)
+
+print("#"*50)
+
+my_custom_array = np.array([1,2,3], ndmin=3)
+print(my_custom_array)
+print(my_custom_array.ndim)
+print(my_custom_array[0,0,0])

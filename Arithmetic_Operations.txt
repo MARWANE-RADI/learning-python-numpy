@@ -1,0 +1,11 @@
+
+import numpy as np
+
+W = np.array([[5,2],
+			  [2,4]])
+
+Z = np.array([[9,8],
+			  [7,4]])
+
+#print(W[0] + Z[1])
+#print(W[1,0]*Z[0,1])

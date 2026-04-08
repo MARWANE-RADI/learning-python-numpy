@@ -1,0 +1,22 @@
+
+
+y = np.array(["A","B","C","D","E","F","M","N","L","Y","X","Z"])
+
+print(y.shape)
+BG = y.reshape(3,4)
+print(BG)
+print(BG.ndim)
+
+print("####################")
+
+
+M= np.array([
+	["A","B","C"],
+    ["D","E","F"],
+    ["M","N","L"],
+    ["Y","X","Z"]
+])
+KL=M.reshape(-1)
+print(KL)
+
+print(KL.ndim)
